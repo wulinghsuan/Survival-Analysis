@@ -12,4 +12,4 @@
 
 ### Case Study: The Lung Cancer Dataset
 
-### Case Study: COVID-19
+### Case Study: [COVID-19](https://github.com/wulinghsuan/Survival-Analysis/blob/master/COVID-19.pdf)
