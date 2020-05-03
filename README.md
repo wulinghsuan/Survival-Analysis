@@ -11,15 +11,15 @@
   2-2. Count data (e.g. Poisson, Binomial, Neg Origianl, Logistic)
   
 
-### Day 1: 010-statistical-modelingFile
+### Day 1: 010-statistical-modeling
 
-### Day 2: 020-nonparamFile
+### Day 2: [020-nonparam](https://github.com/wulinghsuan/Survival-Analysis/blob/master/020-nonparam.pdf)
 
 ### Day 3: 030-CPH
 
-### Day 4: 040-CPH-buildingFile
+### Day 4: 040-CPH-building
 
-### Day 5: 050-CPH-penalizedFile
+### Day 5: 050-CPH-penalized
 
 ### Case Study: The Lung Cancer Dataset
 
