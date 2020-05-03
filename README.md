@@ -13,7 +13,13 @@
 
 ### Day 1: 010-statistical-modeling
 
-### Day 2: [020-nonparam](https://github.com/wulinghsuan/Survival-Analysis/blob/master/020-nonparam.pdf)
+### Day 2: Nonparameter answer of censored duration
+
+#### [Lab 2](https://github.com/wulinghsuan/Survival-Analysis/blob/master/020-nonparam.pdf)
+
+One group: `surv function` + `Median`
+
+Two group: `Statistical function for comparisons` + `Logrank Test`
 
 ### Day 3: 030-CPH
 
