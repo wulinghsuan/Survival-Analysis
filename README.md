@@ -15,7 +15,7 @@
 
 ### Day 2: Nonparameter answer of censored duration
 
-#### [Lab 2](https://github.com/wulinghsuan/Survival-Analysis/blob/master/020-nonparam.pdf)
+#### [Lab 2](https://github.com/wulinghsuan/Survival-Analysis/blob/master/020-nonparam.pdf): rats example, the Xelox trial, the pancreatic dataset
 
 One group: `surv function` + `Median`
 
