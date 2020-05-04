@@ -22,7 +22,7 @@ Two group or more: `Statistical function for comparisons` + `Logrank Test`
 
 ## Day 3: Cox Proportional Hazards (CPH)
 
-### [Lab 2 cont.](https://github.com/wulinghsuan/Survival-Analysis/blob/master/020-nonparam-cont.pdf): the pharmacoSmoking dataset
+### [Lab 2 (cont.)](https://github.com/wulinghsuan/Survival-Analysis/blob/master/020-nonparam-cont.pdf): the pharmacoSmoking dataset
 
 ### [Lab 3](https://github.com/wulinghsuan/Survival-Analysis/blob/master/030-Cox_Regression.pdf): rats example, the pharmacoSmoking dataset
 
