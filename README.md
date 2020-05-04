@@ -59,8 +59,6 @@ Non-nested model: AIC
 |nested model| V | V |
 |non-nested model| X | V |
 
-Nested model
-
 ## Day 5: 050-CPH-penalized
 
 ## Case Study: The Lung Cancer Dataset
