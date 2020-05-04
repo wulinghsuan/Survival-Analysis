@@ -38,7 +38,7 @@ Interaction Test
 
 ## Day 4: Model Building
 
-### [Lab 4](https://github.com/wulinghsuan/Survival-Analysis/blob/master/030-Cox_Regression.pdf): Nicotine Addiction
+### [Lab 4](https://github.com/wulinghsuan/Survival-Analysis/blob/master/030-Cox_Regression.pdf): the pharmacoSmoking dataset, mayo
 
 (Partial) Likelihood Ratio Test (LRT) 
 
@@ -46,18 +46,27 @@ Interaction Test
 
 → p-value <= 0.05 Stick with simple moodel
 
-> anova(MA, MB)
+    anova(MA, MB)
 
-Non-nested model: AIC
+AIC
 
 → the lower the better
 
-> AIC(MA), AIC(MB)
+    AIC(MA), AIC(MB), sapply(list, AIC)
 
 ||LRT|AIC|
 |---|---|---|
 |nested model| V | V |
 |non-nested model| X | V |
+
+Build a model: Stepwise Model Selection
+
+    fit <- coxph
+    step(fit)
+    
+Choose a **Best** model: Concordance/ AUC
+
+    
 
 ## Day 5: 050-CPH-penalized
 
