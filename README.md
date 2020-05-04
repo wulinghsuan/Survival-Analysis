@@ -38,7 +38,7 @@ Interaction Test
 
 ## Day 4: Model Building
 
-### [Lab 4](https://github.com/wulinghsuan/Survival-Analysis/blob/master/030-Cox_Regression.pdf): the pharmacoSmoking dataset, mayo
+### [Lab 4](https://github.com/wulinghsuan/Survival-Analysis/blob/master/040-CPH-building.pdf): the pharmacoSmoking dataset, mayo
 
 (Partial) Likelihood Ratio Test (LRT) 
 
@@ -64,11 +64,15 @@ Build a model: Stepwise Model Selection
     fit <- coxph
     step(fit)
     
-Choose a **Best** model: Concordance/ AUC
-
-    
+Choose a **Best** model: Concordance/ AUC  
 
 ## Day 5: 050-CPH-penalized
+
+### [Lab 4 (cont.)](https://github.com/wulinghsuan/Survival-Analysis/blob/master/030-Cox_Regression.pdf): the pharmacoSmoking dataset
+
+Diagnotics: Martingale Residuals
+
+
 
 ## Case Study: The Lung Cancer Dataset
 
