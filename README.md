@@ -74,23 +74,23 @@ Diagnotics
 
 1. Martingale Residuals: functional form of covariates
 
-    fit <- coxph
-    residuals(fit, type = "martingale")
+       fit <- coxph
+       residuals(fit, type = "martingale")
 
 2. Case Deletion Residuals: influentail observations
 
-    plot(dat$dfbetas, type = 'h')
-    abline(h = 0)
+       plot(dat$dfbetas, type = 'h')
+       abline(h = 0)
 
 3. CLogLog Plot Of Survival: Propartionality of Hazards
 
-    fit <- survfit
-    plot(fit, fun= "cloglog")
+       fit <- survfit
+       plot(fit, fun= "cloglog")
 
 4. Schoenfeld Residuals: Propartionality of Hazards
     
-    fit <- coxph()
-    cox.zph(fit)
+       fit <- coxph()
+       cox.zph(fit)
 
 ## Case Study: The Lung Cancer Dataset
 
