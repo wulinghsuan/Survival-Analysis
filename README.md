@@ -10,20 +10,58 @@
   
   2-2. Count data (e.g. Poisson, Binomial, Neg Origianl, Logistic)
   
+### Day 1: Censored duration
 
-### Day 1: 010-statistical-modeling
+010-statistical-modeling
 
 ### Day 2: Nonparameter answer of censored duration
 
 #### [Lab 2](https://github.com/wulinghsuan/Survival-Analysis/blob/master/020-nonparam.pdf): rats example, the Xelox trial, the pancreatic dataset
 
-One group: `surv function` + `Median`
+One group: `KM` + `surv function` + `Median`
 
-Two group: `Statistical function for comparisons` + `Logrank Test`
+Two group or more: `Statistical function for comparisons` + `Logrank Test`
 
-### Day 3: 030-CPH
+### Day 3: Cox Proportional Hazards (CPH)
 
-### Day 4: 040-CPH-building
+#### [Lab 2 cont.](https://github.com/wulinghsuan/Survival-Analysis/blob/master/020-nonparam-cont.pdf): the pharmacoSmoking dataset
+
+#### [Lab 3](https://github.com/wulinghsuan/Survival-Analysis/blob/master/030-Cox_Regression.pdf): rats example, the pharmacoSmoking dataset
+
+Stratified Logrank Test 
+
+Regression Analyst: Cox-Regression
+
+Interpretation of model results
+
+Predicting Survival: model base
+
+Interaction Test
+
+### Day 4: Model Building
+
+#### [Lab 4](https://github.com/wulinghsuan/Survival-Analysis/blob/master/030-Cox_Regression.pdf): Nicotine Addiction
+
+(Partial) Likelihood Ratio Test (LRT) 
+
+→ p-value >= 0.05 Keep extra parameter
+
+→ p-value <= 0.05 Stick with simple moodel
+
+> anova(MA, MB)
+
+Non-nested model: AIC
+
+→ the lower the better
+
+> AIC(MA), AIC(MB)
+
+||LRT|AIC|
+|---|---|---|
+|nested model| V | V |
+|non-nested model| X | V |
+
+Nested model
 
 ### Day 5: 050-CPH-penalized
 
