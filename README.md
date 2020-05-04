@@ -1,18 +1,16 @@
 # Survival-Analysis
 
 > R packages: asaur, tidyverse, maxLik, survivalROC, glmnet
-
-1. Linear Regression
-
-2. Generalied Linear
-
-  2-1. Linear
-  
-  2-2. Count data (e.g. Poisson, Binomial, Neg Origianl, Logistic)
   
 ### Day 1: Censored duration
 
-010-statistical-modeling
+Linear Regression
+
+Generalied Linear
+
+1. Linear
+  
+2. Count data (e.g. Poisson, Binomial, Neg Origianl, Logistic)
 
 ### Day 2: Nonparameter answer of censored duration
 
