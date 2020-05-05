@@ -68,7 +68,7 @@ Choose a **Best** model: Concordance/ AUC
 
 ## Day 5: 050-CPH-penalized
 
-### [Lab 4 (cont.)](https://github.com/wulinghsuan/Survival-Analysis/blob/master/030-Cox_Regression.pdf): the pharmacoSmoking dataset, Pancreatic cancer dataset
+### [Lab 4 (cont.)](https://github.com/wulinghsuan/Survival-Analysis/blob/master/040-CPH-building.pdf): the pharmacoSmoking dataset, Pancreatic cancer dataset
 
 Diagnotics
 
